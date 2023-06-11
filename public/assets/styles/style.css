@@ -1,0 +1,114 @@
+body {
+    background-color: #DFE1E0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #DFE1E0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+   
+}
+
+.navbar-logo img {
+    width: 400px; /* ancho */
+    height: 149px; /* largo */
+    margin-top: 97px; /* Ajusta el valor según tus necesidades */
+    margin-left: 20px;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+    color: rgba(27, 120, 175, 0.67);
+    padding: 20px;
+    margin-top: 120px; /* Ajusta el valor según tus necesidades */
+   
+}
+
+.navbar-menu li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+.navbar-menu li a {
+    color: rgba(27, 120, 175, 0.67); /* Cambia el color según tus preferencias */
+    text-decoration: none; /* Para quitar el subrayado de los enlaces */
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 165px; /* Ajusta el valor según tus necesidades */
+    margin-left: 70px;
+}
+
+.content img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px; /* Ajusta el valor según tus necesidades */
+}
+
+.content div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px; /* Ajusta el valor según tus necesidades */
+}
+
+.content div img {
+    margin: 0 10px; /* Ajusta el valor según tus necesidades */
+}
+
+.right-image {
+    position: absolute;
+    top: 50%;
+    right: 450px;
+    transform: translate(50%, -50%);
+    max-width: 100%;
+    height: auto;
+}
+
+.center-image1 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+}
+.center-image2 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+}
+.center-image3 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+}
+.center-image4 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+}
