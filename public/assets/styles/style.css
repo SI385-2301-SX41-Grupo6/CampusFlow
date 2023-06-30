@@ -2,48 +2,45 @@ body {
     background-color: #DFE1E0;
     margin: 0;
     padding: 0;
-}
-
-.navbar {
+  }
+  
+  .navbar {
     background-color: #DFE1E0;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
-   
-}
-
-.navbar-logo img {
-    width: 400px; /* ancho */
-    height: 149px; /* largo */
-    margin-top: 97px; /* Ajusta el valor según tus necesidades */
+  }
+  
+  .navbar-logo img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     margin-left: 20px;
-}
-
-.navbar-menu {
+  }
+  
+  .navbar-menu {
     display: flex;
     align-items: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-style: italic;
-    font-size: 40px;
+    font-size: 2.5vw;
     color: rgba(27, 120, 175, 0.67);
     padding: 20px;
-    margin-top: 120px; /* Ajusta el valor según tus necesidades */
-   
-}
-
-.navbar-menu li {
+  }
+  
+  .navbar-menu li {
     list-style: none;
-    margin-left: 60px;
-}
-
-.navbar-menu li a {
-    color: rgba(27, 120, 175, 0.67); /* Cambia el color según tus preferencias */
-    text-decoration: none; /* Para quitar el subrayado de los enlaces */
-}
-
+    margin-left: 2vw;
+  }
+  
+  .navbar-menu li a {
+    color: rgba(27, 120, 175, 0.67);
+    text-decoration: none;
+  }
+  
 .content {
     display: flex;
     flex-direction: column;
@@ -51,6 +48,15 @@ body {
     align-items: flex-start;
     margin-top: 165px; /* Ajusta el valor según tus necesidades */
     margin-left: 70px;
+}
+
+.right-image-container {
+    position: absolute;
+    top: 50%;
+    right: 450px;
+    transform: translate(50%, -50%);
+    max-width: 100%;
+    height: auto;
 }
 
 .content img {
@@ -71,14 +77,6 @@ body {
     margin: 0 10px; /* Ajusta el valor según tus necesidades */
 }
 
-.right-image {
-    position: absolute;
-    top: 50%;
-    right: 450px;
-    transform: translate(50%, -50%);
-    max-width: 100%;
-    height: auto;
-}
 
 .center-image1 {
     position: absolute;
@@ -88,6 +86,19 @@ body {
     max-width: 100%;
     height: auto;
 }
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000; /* Asegura que el botón esté por encima de otros elementos */
+}
+
+.back-button img {
+    width: 50px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+}
+
 .center-image2 {
     position: absolute;
     top: 50%;
